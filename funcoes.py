@@ -1,6 +1,6 @@
 from pathlib import Path
 
-pessoas = Path(r'C:\Users\crist\Desktop\Ensino\Cadastro de pessoas_V2\pessoas.txt')
+pessoas = Path(r'Cadastro de pessoas_V2\cadastro-pessoas-cli-python\pessoas.txt')
 
 def checar_arquivo():
     if not pessoas.exists():
